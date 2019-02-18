@@ -1,6 +1,6 @@
 # はじめてのPHPプログラミング
 
-## サンプルプログラム
+## コマンドラインアプリケーション - サンプルプログラム
 
 本講座で扱うサンプルプログラムを見てみましょう。
 
@@ -20,7 +20,7 @@
 
 次のプログラムは画面（ターミナル）に`Hello PHP`と出力するプログラムです。ファイル名は`sample1.php`として任意のフォルダに保存します。
 
-> 以降のサンプルプログラムはMac上で`/Users/murayama/Desktop/php-basic`フォルダに保存したものとします。
+> 以降のサンプルプログラムはMac上で`/Users/murayama/Desktop/php/overview`フォルダに保存したものとします。
 
 ```php
 <?php
@@ -33,13 +33,13 @@ PHPで画面にデータを出力するには`echo`命令を使います。上�
 次にターミナル（Windowsの場合はコマンドプロンプト）を開きます。カレントディレクトリ（カレントフォルダ）を変更するために以下のコマンドを入力します。
 
 ```bash
-$ cd /Users/murayama/Desktop/php-basic
+$ cd /Users/murayama/Desktop/php/overview
 ```
 
-ターミナル上で現在作業している（開いている）ディレクトリをカレントディレクトリと呼びます。`cd`コマンドによってカレントディレクトリを変更することができます。ここではカレントディレクトリを`/Users/murayama/Desktop/php-basic`に変更しています。
+ターミナル上で現在作業している（開いている）ディレクトリをカレントディレクトリと呼びます。`cd`コマンドによってカレントディレクトリを変更することができます。ここではカレントディレクトリを`/Users/murayama/Desktop/php/overview`に変更しています。
 
 
-> 注意：自分のMacに合わせて上記のパス`/Users/murayama/Desktop/php-basic`は置き換えてください。
+> 注意：自分のMacに合わせて上記のパス`/Users/murayama/Desktop/php/overview`は置き換えてください。
 
 
 

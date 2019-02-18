@@ -1,7 +1,5 @@
 <?php
-$price = 1000;
-echo $price . PHP_EOL; # => 1000
-$price = 2000;
-echo $price . PHP_EOL; # => 2000
-
-
+$name = "Andy";
+echo $name; # => Andy
+$name = "Betty";
+echo $name; # => Betty

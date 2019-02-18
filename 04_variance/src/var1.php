@@ -1,3 +1,4 @@
 <?php
-$price = 1000;
-echo $price; # => 1000
+$name = "Andy";
+echo "Hello ";
+echo $name;

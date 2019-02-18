@@ -2,7 +2,7 @@
 
 続いてステートメントについて学習していきましょう。ステートメントとはプログラムで記述された文のことです。次のプログラム（basic8.php）を見てみましょう。
 
-```
+```php
 <?php
 echo "Hello PHP";
 echo "Hello Python";
@@ -11,7 +11,7 @@ echo "Hello Java";
 
 上記のPHPプログラムは3行のステートメントで構成されています。
 
-```
+```php
 echo "Hello PHP";
 echo "Hello Python";
 echo "Hello Java";
@@ -19,7 +19,7 @@ echo "Hello Java";
 
 PHPのステートメントには一つルールがあります。それはステートメントの終端にセミコロン`;`をつけるというルールです。それではルールに従わない場合はどうなるのでしょうか。試しにセミコロン`;`を1つ省略してみましょう。さきほどのプログラム（basic8.php）を次のように修正します。
 
-```
+```php
 <?php
 echo "Hello PHP";
 echo "Hello Python"
@@ -31,7 +31,7 @@ echo "Hello Java";
 
 作成したプログラムを実行してみましょう。
 
-```bash
+```
 $ php basic8.php
 PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/murayama/Desktop/php/basic/basic8.php on line 4
 
@@ -75,7 +75,7 @@ in /Users/murayama/Desktop/php/basic/basic8.php on line 4
 
 具体的には次のようなケースです。さきほどのプログラム（basic8.php）を次のように修正します。
 
-```
+```php
 <?php
 echo "Hello PHP";
 echo "Hello Python";
@@ -87,7 +87,7 @@ echo "Hello Java"
 
 プログラムを実行してみましょう。
 
-```bash
+```
 $ php basic8.php
 Hello PHPHello PythonHello Java
 ```

@@ -1,5 +1,3 @@
-# はじめてのPHPプログラミング
-
 ## コマンドラインアプリケーション - サンプルプログラム
 
 本講座で扱うサンプルプログラムを見てみましょう。
@@ -201,7 +199,7 @@ Hello BettyHello Carol
 $students = [
   ["name" => "Andy", "age" => 20],
   ["name" => "Betty", "age" => 19],
-  ["name" => "Cody", "age" => 21]
+  ["name" => "Carol", "age" => 21]
 ];
 
 for ($i = 0; $i < 3; $i++) {
@@ -308,7 +306,7 @@ for ($i = 0; $i < 3; $i++) {
 
 ```bash
 $ php sample8.php
-Hello ANDYHello CODY
+Hello ANDYHello CAROL
 ```
 
 上記のように出力されればOKです。

@@ -2,7 +2,7 @@
 
 コメントはプログラムの中に、メモ書きを残す仕組みです。次のプログラム（basic9.php）を見てみましょう。
 
-```
+```php
 <?php
 // This is My First Programmihng!
 echo "Hello PHP";
@@ -27,7 +27,7 @@ PHPプログラムでは単一行コメント、複数行コメントがサポ�
 
 また単一行コメントは`#`で表現することもできます。さきほどのプログラム（basic9.php）を修正してみましょう。
 
-```
+```php
 <?php
 # This is My First Programmihng!
 echo "Hello PHP";
@@ -39,7 +39,7 @@ echo "Hello PHP";
 
 続いて複数行コメントについて見てみましょう。さきほどのプログラム（basic9.php）を修正してみましょう。
 
-```
+```php
 <?php
 /*
  This is

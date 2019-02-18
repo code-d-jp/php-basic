@@ -4,5 +4,5 @@
 
 + PHPタグ `<?php ?>`
 + ステートメント `echo "Hello PHP";`
-+ コメント `# comment`
++ コメント `// comment`
 

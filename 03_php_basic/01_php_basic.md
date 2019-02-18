@@ -2,7 +2,7 @@
 
 それではPHPタグについて学習していきましょう。テキストエディタを開いて次のプログラム（basic1.php）を作成してみましょう。
 
-```
+```php
 <?php
 echo "Hello PHP";
 ?>
@@ -15,7 +15,7 @@ echo "Hello PHP";
 
 ターミナル（Windowsの場合はコマンドプロンプト）を開きます。カレントディレクトリを変更するために以下のコマンドを入力します。
 
-```bash
+```
 $ cd /Users/murayama/Desktop/php-basic
 ```
 
@@ -26,7 +26,7 @@ $ cd /Users/murayama/Desktop/php-basic
 
 それでは作成したプログラムを実行してみましょう。ターミナル上で`php`コマンドを入力します。
 
-```bash
+```
 $ php basic1.php
 Hello PHP
 ```
@@ -38,7 +38,7 @@ PHPプログラムは開始タグ`<?php`と終了タグ`?>`の中に記述しま
 
 プログラムが複数行になる場合は開始タグ`<?php`と終了タグ`?>`の間にEnterキーで改行を入れながらプログラムを作成していきます。次のプログラム（basic2.php）を作成してみましょう。
 
-```
+```php
 <?php
 echo "Hello PHP";
 echo "Hello Python";
@@ -48,7 +48,7 @@ echo "Hello Java";
 
 それでは作成したプログラムを実行してみましょう。
 
-```bash
+```
 $ php basic2.php
 Hello PHPHello PythonHello Java
 ```
@@ -60,7 +60,7 @@ Hello PHPHello PythonHello Java
 
 PHPの開始タグ`<?php`と終了タグ`?>`の外側には任意のテキストを記述することができます。次のプログラム（basic3.php）を作成してみましょう。
 
-```
+```php
 Hello Python
 <?php
 echo "Hello PHP";
@@ -70,7 +70,7 @@ Hello Java
 
 それでは作成したプログラムを実行してみましょう。
 
-```bash
+```
 $ php basic3.php
 Hello Python
 Hello PHPHello Java
@@ -79,7 +79,7 @@ Hello PHPHello Java
 PHPの開始タグ`<?php`と終了タグ`?>`の外側に記述した内容がそのまま出力されているのがわかります。このようにPHPの開始タグ`<?php`と終了タグ`?>`の外側は、記述した内容がそのまま出力されるようになっています。それでは次のプログラム（basic4.php）はどうでしょうか。
 
 
-```
+```php
 Hello Python
 
 
@@ -93,7 +93,7 @@ Hello Java
 
 上記のプログラムには改行がいくつか追加されています。それでは作成したプログラムを実行してみましょう。
 
-```bash
+```
 $ php basic4.php
 Hello Python
 
@@ -106,7 +106,7 @@ Hello PHPHello Java
 
 なぜこのような仕組みになっているかというと、PHPは後で学習するHTMLと相性の良いプログラミング言語になっているからです。少し背伸びをして、次のプログラム（basic5.php）を作成してみましょう。
 
-```
+```php
 <?php
 $title = "Hello PHP";
 ?>
@@ -124,11 +124,11 @@ $title = "Hello PHP";
 
 変数やHTMLを活用いたプログラムです。現時点ではざっくり見ておいてもらえれば大丈夫ですが、1点注意して見てほしいのは、HTMLプログラムの中にPHPプログラムを挿入するようにプログラミングすることができる点です。たとえば`<title>`タグや`<h1>`タグの中でPHPプログラムが記述されています。
 
-```
+```php
 <title><?php echo $title ?></title>
 ```
 
-```
+```php
 <h1><?php echo $title ?></h1>
 ```
 
@@ -138,7 +138,7 @@ $title = "Hello PHP";
 
 それでは作成したプログラムを実行してみましょう。
 
-```bash
+```
 $ php basic5.php
 <!DOCTYPE html>
 <html lang="ja">
@@ -159,7 +159,7 @@ HTMLの`<title>`タグや`<h1>`タグの中身がPHPによって出力されて�
 
 さきほどのプログラム（basic4.php）の仕組みを理解しておかないと、プログラムの出力結果が変わってしまいます。たとえば次のプログラム（basic6.php）を見てみましょう。
 
-```
+```php
 <?php
 echo "Hello PHP";
 ?>
@@ -178,7 +178,7 @@ PHPの終了タグ`?>`の下に意味のない改行が複数入力されてい�
 
 プログラムを実行すると当然、次のように出力されてしまいます。
 
-```bash
+```
 $ php basic6.php
 Hello PHP
 
@@ -193,7 +193,7 @@ Hello PHP
 そのためPHPのプログラムでは、ファイルの終端においては終了タグ`?>`を省略することが許されています。次のプログラム（basic7.php）を作成してみましょう。
 
 
-```
+```php
 <?php
 echo "Hello PHP";
 
@@ -209,7 +209,7 @@ echo "Hello PHP";
 
 プログラムを実行すると次のように出力されます。
 
-```bash
+```
 $ php basic7.php
 Hello PHP
 ```

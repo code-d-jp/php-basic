@@ -4,7 +4,7 @@
 
 変数を扱う簡単なPHPプログラムを作成してみましょう。テキストエディタを開いて次のプログラム（var1.php）を作成してみましょう。
 
-```
+```php
 <?php
 $name = "Andy";
 echo "Hello ";
@@ -15,7 +15,7 @@ echo $name;
 
 それでは作成したプログラムを実行してみましょう。
 
-```sh
+```
 $ php var1.php
 Hello Andy
 ```
@@ -27,7 +27,7 @@ Hello Andy
 
 先ほどのプログラム（var1.php）を再度確認してみましょう。
 
-```
+```php
 <?php
 $name = "Andy";
 echo "Hello ";
@@ -40,7 +40,7 @@ echo $name; # => Hello Andy
 
 たとえば次のプログラム（var2.php）では`$name`、`$name2`、`$all_names`という3つの変数を利用しています。いずれも妥当な変数名です。
 
-```
+```php
 <?php
 $name = "Andy";
 $name2 = "Betty";
@@ -52,7 +52,7 @@ echo $all_names; # => AndyBetty
 
 一方で次のようなプログラム（var3.php）は変数名のルールを満たしていないのでエラーとなります。
 
-```
+```php
 <?php
 name = "Andy";               # $記号で始まっていないのでエラー
 $2name = "Betty";            # $記号の直後に数字は使えないのでエラー
@@ -63,7 +63,7 @@ $all-names = $name . $name2; # 変数名に-（ハイフン）は使えないの
 
 変数名は大文字小文字は区別します。次のプログラム（var4.php）を見てみましょう。
 
-```
+```php
 <?php
 $name = "Andy";
 $Name = "Betty";
@@ -85,7 +85,7 @@ echo $NAME; # => Carol
 
 変数にデータを代入するには`=`記号を使います。`=`記号は代入演算子とも呼ばれます。ここではvar1.phpを再掲します。
 
-```
+```php
 <?php
 $name = "Andy";
 echo "Hello ";
@@ -96,13 +96,13 @@ echo $name; # => Hello Andy
 
 変数の代入は次のような構文になります。
 
-```
+```php
 $変数名 = データ;
 ```
 
 プログラムの構文としては代入先となる変数をまず先に記述し、次に代入演算子、それから変数に代入したいデータを並べます。たとえば次のような記述は誤りです。
 
-```
+```php
 <?php
 "Andy" = $name; # 代入先の変数を先に記述していないのでエラー
 echo "Hello ";
@@ -115,7 +115,7 @@ echo $name;
 
 変数は代入したデータを新たな代入により上書きすることもできます。次のプログラム（var5.php）を作成してみましょう。
 
-```
+```php
 <?php
 $name = "Andy";
 echo $name; # => Andy

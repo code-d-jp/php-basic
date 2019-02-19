@@ -16,13 +16,11 @@ echo "Hello PHP";
 ターミナル（Windowsの場合はコマンドプロンプト）を開きます。カレントディレクトリを変更するために以下のコマンドを入力します。
 
 ```
-$ cd /Users/murayama/Desktop/php-basic
+$ cd /Users/murayama/Desktop/php/basic
 ```
 
-> ターミナル上で現在作業している（開いている）ディレクトリをカレントディレクトリと呼びます。`cd`コマンドによってカレントディレクトリを変更することができます。ここではカレントディレクトリを`/Users/murayama/Desktop/php/overview`に変更しています。
+> ターミナル上で現在作業している（開いている）ディレクトリをカレントディレクトリと呼びます。`cd`コマンドによってカレントディレクトリを変更することができます。ここではカレントディレクトリを`/Users/murayama/Desktop/php/basic`に変更しています。
 
-
-> 注意：自分のMacに合わせて上記のパス`/Users/murayama/Desktop/php/overview`は置き換えてください。
 
 それでは作成したプログラムを実行してみましょう。ターミナル上で`php`コマンドを入力します。
 

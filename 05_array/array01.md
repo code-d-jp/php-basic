@@ -6,7 +6,7 @@
 
 テキストエディタを開いて次のプログラム（array1.php）を作成してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 
@@ -32,7 +32,7 @@ Hello AndyHello BettyHello Carol
 
 それではプログラム（array1.php）の詳細を見てみましょう。プログラムの先頭の部分で配列`$names`を定義しています。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 ```
@@ -46,7 +46,7 @@ $names = ["Andy", "Betty", "Carol"];
 
 配列は要素番号を指定することで一つのデータを取り出すことができます。たとえば配列`$names`に要素番号としてと0を指定する場合は`$names[0]`と記述します。引き続きプログラム（array1.php）の詳細を見てみましょう。
 
-```
+```php
 echo "Hello ";
 echo $names[0]; # 先頭の要素にアクセス
 echo "Hello ";
@@ -61,7 +61,7 @@ echo $names[2]; # 前から3番目の要素にアクセス
 
 PHPの要素番号は0から割り振られることを学びました。それでは存在しない要素番号にアクセスするとどうなるのでしょうか。次のプログラム（array2.php）を作成してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 
@@ -85,7 +85,7 @@ Notice: Undefined offset: 3 in /Users/murayama/Desktop/php/array/array2.php on l
 
 もう一つ注意する点を確認しておきましょう。次のプログラム（array3.php）を作成してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 
@@ -106,7 +106,7 @@ Array
 
 もし配列の要素をすべて確認したいのであればechoではなくvar_dump関数を使うことができます。さきほどのプログラム（array3.php）を修正してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 
@@ -134,7 +134,7 @@ var_dump関数によって配列のすべての要素が出力されているの
 
 続いて配列の要素数を求めるプログラムを見てみましょう。次のプログラム（array4.php）を作成してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 $count = count($names);

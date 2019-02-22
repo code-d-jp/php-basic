@@ -2,7 +2,7 @@
 
 配列の要素の削除は、追加や変更に比べると少し癖があります。たとえば`"Andy"`、`"Betty"`、`"Carol"`と3つの要素を持つ配列から`"Betty"`を削除するものとしましょう。まずは誤った例から見てみましょう。次のプログラム（array8.php）を作成してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 $names[1] = "";
@@ -36,7 +36,7 @@ array(3) {
 PHPの配列から要素を削除する方法の一つとして、unset関数を使うことができます。ただしunset関数の挙動については注意する必要があります。次のプログラム（array9.php）を作成してみましょう。
 
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 unset($names[1]);
@@ -78,7 +78,7 @@ array(2) {
 unset関数の問題を解決するためにはいくつかの方法があります。ここではarray_splice関数を使う方法を紹介します。次のプログラム（array10.php）を作成してみましょう。
 
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 array_splice($names, 1, 1);

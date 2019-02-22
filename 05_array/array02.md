@@ -25,7 +25,7 @@ Dave
 
 復習として配列の要素数も確認してみましょう。さきほどのプログラム（array5.php）を次のように修正してみましょう。
 
-```
+```php
 <?php
 $names = ["Andy", "Betty", "Carol"];
 $names[] = "Dave";
